@@ -1,0 +1,71 @@
+@charset "UTF-8";
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  padding: 0 5%;
+  font-weight: 300;
+  width: 100%; }
+
+.day-background {
+  background: linear-gradient(#6498CE, #3d7ec2);
+  color: white; }
+
+.night-background {
+  background: linear-gradient(#000045, #000012);
+  color: white; }
+
+.greetings {
+  text-align: center;
+  font-size: 4em;
+  font-weight: 300; }
+
+p {
+  margin: 0; }
+
+.weather {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top; }
+
+.weather-day {
+  font-size: 1em; }
+
+.weather-temperature {
+  font-size: 6em; }
+
+.weather-max {
+  font-size: 1em;
+  width: 50%;
+  display: inline; }
+  .weather-max::before {
+    content: "⬆"; }
+
+.weather-min {
+  font-size: 1em;
+  width: 49%;
+  display: inline; }
+  .weather-min::before {
+    content: "⬇"; }
+
+.clock {
+  width: 49%;
+  text-align: right;
+  display: inline-block; }
+
+.clock-time {
+  font-size: 7em; }
+
+.clock-day-week {
+  font-size: 2em; }
+
+.clock-date {
+  font-size: 1em; }
+
+/*# sourceMappingURL=style.css.map */
